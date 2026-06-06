@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finaliser l'achat | Nutri&amp;Force</title>
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/achat.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h1>Nutri&amp;Force</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div>
+            <h2>Informations de livraison</h2>
+            
+            <form action="../index.html" method="POST">
+                
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+
+                <div>
+                    <label for="telephone">Numéro de téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+                </div>
+
+                <div>
+                    <label for="ville">Ville / Wilaya :</label>
+                    <input type="text" id="ville" name="ville" required>
+                </div>
+
+                <div>
+                    <label for="commune">Commune :</label>
+                    <input type="text" id="commune" name="commune" required>
+                </div>
+
+                <div>
+                    <label>Type de livraison :</label>
+                    <div>
+                        <input type="radio" id="domicile" name="livraison" value="domicile" checked>
+                        <label for="domicile">À domicile</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bureau" name="livraison" value="bureau">
+                        <label for="bureau">bureau</label>
+                    </div>
+                </div>
+
+                <button type="submit">Confirmer la commande</button>
+                
+            </form>
+        </div>
+    </main>
+
+    <footer><p>&copy; 2026 Nutri&amp;Force - Tous droits réservés.</p></footer>
+
+</body>
+</html>
